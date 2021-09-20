@@ -12,49 +12,51 @@
 </head>
 <body>
     <div class="container">
-        <header class="row">
-            <p class="col-8">SUBSCRIBE</p>
-            <button class="col">facebook</button>
-            <button class="col">RSS feed</button>
-            <button class="col">twitter</button>
-            <button class="col">youTube</button>
+        <header class= "topbar">
+            <p>SUBSCRIBE</p>
+            <div class="topbuttons">
+                <button class="fb-top"><i class="fab fa-facebook-f"></i></button>
+                <button class="rss-top"><i class="fas fa-rss"></i></button>
+                <button class="twitter-top"><i class="fab fa-twitter"></i></button>
+                <button class="youtube-top"><i class="fab fa-youtube"></i></button>
+            </div>
         </header>
-        <nav class="row">
-            <button class="col">SK8T NEWS</button>
-            <button class="col">SKATEBOARDERS</button>
-            <button class="col">BOARD DESIGN</button>
-            <button class="col">CONACT US</button>
+        <nav class="row nav-buttons">
+            <button class="col">— SK8T NEWS —</button>
+            <button class="col">— SKATEBOARDERS —</button>
+            <button class="col">— BOARD DESIGN —</button>
+            <button class="col">— CONACT US —</button>
         </nav>
-        <div class="card">
-            <img class="card-img" src="images/top-image.png" alt="Camera Man"/> 
-            <!-- <img class="card-img-overlay" src="images/grid.png" alt= "Grid"/> -->
-            <img class="card-img-overlay" src="images/peralta-logo.png" alt="Peralta Logo"/>
+        <div class="card camera-photo">
+            <img class="card-img camera-man" src="images/top-image.png" alt="Camera Man"/> 
+            <img class="card-img-overlay grid-dots" src="images/grid.png" alt= "Grid"/>
+            <img class="card-img-overlay logo" src="images/peralta-logo.png" alt="Peralta Logo"/>
         </div>
-        <div class="row">
-            <div class="col" id="posts">
+        <div class="row mt-5">
+            <div class="col post1">
                 <h2>Tony Hawk Foundation Raises Big Money At Celeb Fundraiser</h2>
                 <h3>October 10, 2013</h3>
                 <p>Axle set powerslide masonite rails nose Shawn Dutton. Chicken wing hang up casper slide 720 slam. Boned out soul skate downhill Bam Margera axle Primo slide.</p>
             </div>
-            <div class="col" id="posts">
+            <div class="col post2">
                 <h2>Rodney Mullen: Pop an ollie and innovate! (TED Talk)</h2>
                 <h3>March 10, 2013</h3>
                 <p>Skater roll-in pop shove-it wall ride wax. G-turn bearings tuna-flip nose slide rail slide. Locals stoked sick half-cab grab Steve Severin.</p>
             </div>
-            <div class="col" id="posts">
+            <div class="col post3">
                 <h2>Ray Barbee Talks 'Ban This'</h2>
                 <h3>Oct 4, 2013</h3>
                 <p>Dylan Rieder feeble pressure flip gnarly disaster rad. Coper nosebone bruised heel Kris Markovich skate or die shoveit.</p>
             </div>
         </div>
-        <div class="row" class="skateboarders">
+        <div class="row skateboarders">
             <h2>SKATEBOARDERS</h2>
-            <img src="images/sk8er-4.png" alt="Lance Mountain" class="col-4" class="skaterboy1">
-            <img src="images/sk8er-3.png" alt="Rodney Mullen" class="col-4" class="skaterboy2">
-            <img src="images/sk8er-2.png" alt="Tommy Guerrero" class="col-4" class="skaterboy3">
-            <img src="images/sk8er-1.png" alt="Steve Caballero" class="col-8" class="skaterboy4">
+            <img src="images/sk8er-4.png" alt="Lance Mountain" class="col-4 img-fluid skaterboy1">
+            <img src="images/sk8er-3.png" alt="Rodney Mullen" class="col-4 img-fluid skaterboy2" >
+            <img src="images/sk8er-2.png" alt="Tommy Guerrero" class="col-4 img-fluid skaterboy3">
+            <img src="images/sk8er-1.png" alt="Steve Caballero" class="col-8 img-fluid skaterboy4">
         </div>
-        <div class="skatedecks">
+        <section class="skatedecks">
             <img src="images/sk8-10.png" alt="panda"/>
             <img src="images/sk8-9.png" alt="monkey"/>
             <img src="images/sk8-8.png" alt="mess board"/>
@@ -65,7 +67,31 @@
             <img src="images/sk8-3.png" alt="rob dyrdek"/>
             <img src="images/sk8-2.png" alt="elephant"/>
             <img src="images/sk8-1.png" alt="skull"/>
-        </div>
+        </section>
+        <section class="row">
+            <h4>Contact Us for More Information</h4>
+            <p class="col-6">
+                Bone air nose grab tailslide locals tail skate key casper slide World Industries. Coper impossible helipop varial tailslide dude Andy Howell crail grab. Wheels mongo late switch boneless front foot impossible shinner.
+            </p>
+            <button></button><button></button>
+            <button></button>
+            <button></button>
+            <form class="col-6">
+            <div class="mb-3">
+                <label for="inputName" class="form-label"></label>
+                <input type="name" class="form-control" id="inputName" placeholder="NAME">
+            </div>
+            <div class="mb-3">
+                <label for="inputEmail" class="form-label"></label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="EMAIL">
+            </div>
+            <div class="mb-3 pb-10">
+                <label for="inputYourMessage" class="form-label"></label>
+                <input type="message" class="form-control" id="inputYourMessage" placeholder="YOUR MESSAGE">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </section>
     </div>
 </body>
 </html>

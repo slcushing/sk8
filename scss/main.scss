@@ -2,23 +2,96 @@
     box-sizing: border-box;
 }
 
-// body {
-//     background: url('./images/bg.jpg');
-// }
+body {
+    background: url('/Users/stephaniecushing/Documents/ccs/homework/sk8-main/images/bg.jpg');
+    height: 100vh;
+}
 
 .container {
     min-height: 100%;
     width:75%;
 }
 
-#posts {
-    border: solid 2px black;
+.topbar {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
 }
 
-.skateboarders {
-    width: 45%;
-    margin-bottom: -5em;
+.topbar p {
+    display: flex;
+    justify-content: flex-end;
+    color:white;
 }
+
+.fb-top {
+    background-color: #485793;
+    color: lightgray;
+    border: none;
+    width: 4em;
+    height: 4em;
+    border-bottom: solid 5px grey;
+}
+
+.rss-top {
+    background-color: #c39245;
+    color: lightgray;
+    border: none;
+    width: 4em;
+    height: 4em;
+    border-bottom: solid 5px grey;
+}
+
+.twitter-top {
+    background-color: #718cc2;
+    color: lightgray;
+    border: none;
+    width: 4em;
+    height: 4em;
+    border-bottom: solid 5px grey;
+}
+
+.youtube-top {
+    background-color: #a44134;
+    color: lightgray;
+    border: none;
+    width: 4em;
+    height: 4em;
+    border-bottom: solid 5px grey;
+}
+
+.nav-buttons button {
+    background-color: #a63634;
+    color: white;
+    border: none;
+    margin: 1em;
+    padding: .8em;
+}
+
+
+#posts {
+    background-color: white;
+}
+
+.camera-photo {
+    overflow: hidden;
+    height: 25em;
+    border: solid white 10px;
+}
+
+.camera-man {
+    object-fit: none;
+}
+
+.grid-dots{
+    padding: 0;
+    opacity: 0.5;
+}
+
+
+
+
+
 
 .skatedecks{
     display: flex;
@@ -26,7 +99,7 @@
     align-items: center;
     transform: rotate(90deg);
     gap:2em;
-    border: solid 1px black;
+    background-color: white;
     width: 45%;
     margin-left: 15em;
     padding: 15px 0px 15px 0px;
