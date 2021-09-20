@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100%;
+  width: 75%;
+}
+
+#posts {
+  border: solid 2px black;
+}
+
+.skateboarders {
+  width: 45%;
+  margin-bottom: -5em;
+}
+
+.skatedecks {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  transform: rotate(90deg);
+  gap: 2em;
+  border: solid 1px black;
+  width: 45%;
+  margin-left: 15em;
+  padding: 15px 0px 15px 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
