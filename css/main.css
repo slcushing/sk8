@@ -151,6 +151,11 @@ p {
   margin-top: -20em;
 }
 
+.carousel-caption {
+  color: white;
+  font-size: 20px;
+}
+
 .skatedecks {
   margin-left: 32.7%;
   margin-top: -22em;

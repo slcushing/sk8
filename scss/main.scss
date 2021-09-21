@@ -125,8 +125,7 @@ p {
     object-fit: cover;
     width:fit-content;
     height: 300px;
-    width: 33.33%
-
+    width: 33.33%;
 }
 
 .skaterboy2 {
@@ -136,7 +135,6 @@ p {
     width: fit-content;
     height: 300px;
     width: 33.33%;
-
 }
 
 .skaterboy3 {
@@ -152,6 +150,11 @@ p {
     object-fit: cover;
     height: 20em;
     margin-top: -20em;
+}
+
+.carousel-caption {
+    color: white;
+    font-size: 20px;
 }
 
 
