@@ -68,11 +68,6 @@ body {
     padding: .8em;
 }
 
-
-#posts {
-    background-color: white;
-}
-
 .camera-photo {
     overflow: hidden;
     height: 25em;
@@ -88,20 +83,90 @@ body {
     opacity: 0.5;
 }
 
+.post1 {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2em 2em 1em 2em;
+}
+
+.post2 {
+    background-color: white;
+    margin-right: 10px;
+    padding: 2em 2em 1em 2em;
+}
+
+.post3 {
+    background-color: white;
+    margin-right: 24px;
+    padding: 2em 2em 1em 2em;
+}
+
+.readmore {
+    color: #a63634;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
 
 
+.skateboarders h2 {
+    background-color: #a63634;
+    color: white;
+}
 
+.skaterboy1 {
+    border: solid 0.5em white;
+    padding: 0;
+    object-fit: cover;
+    width:fit-content;
+    height: 300px;
+    width: 33.33%
+
+}
+
+.skaterboy2 {
+    border: solid 0.5em white;
+    padding: 0;
+    object-fit: cover;
+    width: fit-content;
+    height: 300px;
+    width: 33.33%;
+
+}
+
+.skaterboy3 {
+    border: solid 0.5em white;
+    padding: 0;
+    object-fit: cover;
+    width: 33.3333333%;
+}
+
+.skaterboy4 {
+    border: solid 0.5em white;
+    padding: 0;
+    object-fit: cover;
+    height: 20em;
+    margin-top: -20em;
+}
 
 
 .skatedecks{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
+    margin-left: 32.7%;
+    margin-top: -22em;
+    margin-bottom: -22em;
     transform: rotate(90deg);
+    align-content: stretch; 
     gap:2em;
     background-color: white;
-    width: 45%;
-    margin-left: 15em;
-    padding: 15px 0px 15px 0px;
+    width: 34.7%;
+}
 
+.moreinfo {
+    background-color: white;
+    padding: 2em;
 }
